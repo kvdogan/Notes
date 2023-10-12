@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Logarithm
 Definition of $e$ is used to calculate derivation proofs of $lnx$ and $e^x$.
 $$
@@ -25,9 +29,9 @@ $$
 &e^x \cdot \lim_{h \rightarrow 0} \frac{e^h-1}{h}
 \end{align*}
 $$
-First prove that $\lim_{h\to 0}\frac{\ln(h+1)}{h}=1$. The switch of $\ln$, $\lim$ is possible because $f(x)=\ln x$, $x>0$ is continuous.  
+First prove that $\lim_{h\to 0}\frac{\ln(h+1)}{h}=1$. The switch of $\ln$, $\lim$ is possible because $f(x)=\ln x$, $x>0$ is continuous.
 
-$\lim_{h\to 0}(1+h)^{\frac{1}{h}} = e \quad \text{by definition ref to (1)}$ 
+$\lim_{h\to 0}(1+h)^{\frac{1}{h}} = e \quad \text{by definition ref to (1)}$
 
 $\lim_{h\to 0}\frac{ln(1+h)}{h}=\ln e = 1$
 
