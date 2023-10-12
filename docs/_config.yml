@@ -30,3 +30,7 @@ social_links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/username
     icon: fab fa-linkedin
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
