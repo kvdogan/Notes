@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Diophantine Equations
 
 **Example:**
