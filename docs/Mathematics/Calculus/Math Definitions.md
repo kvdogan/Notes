@@ -1,3 +1,4 @@
+# Math Definitions
 # Derivative
 
 $$
@@ -20,8 +21,8 @@ $\mathbb{N}$ = Natural numbers (all positive integers starting from 1. (1,2,3...
 $\mathbb{Z}$ = Integers ( all integers positive and negative ( -inf, ..., -2,-1,0,1,2....inf)
 
 # GCD & LCM
-$\operatorname{lcm}(a,b)	=	\text{least common multiple of integers a and b}$  
-$\operatorname{gcd}(a,b)	=	\text{greatest common divisor of integers a and b}$  
+$\operatorname{lcm}(a,b)	=	\text{least common multiple of integers a and b}$
+$\operatorname{gcd}(a,b)	=	\text{greatest common divisor of integers a and b}$
 
 $$
 \begin{align}
@@ -40,9 +41,9 @@ $$
 			'primaryBorderColor': '#7C0000',
 			'lineColor': '#F8B229',
 			'secondaryColor': '#006100',
-			'tertiaryColor': '#fff' 
-		} 
-	} 
+			'tertiaryColor': '#fff'
+		}
+	}
 }%%
 graph LR
 x(( x1))
