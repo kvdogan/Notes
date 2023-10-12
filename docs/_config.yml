@@ -4,19 +4,20 @@ description: A description of my awesome site.
 url: https://kvdogan.github.io
 baseurl: "notes" # Leave this blank for a user page repository, or set it to the name of your project repository for a project page.
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
-      title: "Home"
+# defaults:
+#   -
+#     scope:
+#       path: "" # an empty string here means all files in the project
+#     values:
+#       layout: "default"
+#       title: "Home"
 
 
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
+# theme: jekyll-theme-minimal
 
 markdown_extensions:
   - attr_list
@@ -28,4 +29,4 @@ markdown_extensions:
   - kramdown
 
 extra_javascripts:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
