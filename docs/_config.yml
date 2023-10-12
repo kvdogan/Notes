@@ -4,20 +4,11 @@ description: A description of my awesome site.
 url: https://kvdogan.github.io
 baseurl: "notes" # Leave this blank for a user page repository, or set it to the name of your project repository for a project page.
 
-# defaults:
-#   -
-#     scope:
-#       path: "" # an empty string here means all files in the project
-#     values:
-#       layout: "default"
-#       title: "Home"
+# Build settings
+remote_theme: just-the-docs/just-the-docs
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
-
-# remote_theme: remote_theme: just-the-docs/just-the-docs
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
-
-theme: jekyll-theme-minimal
 
 markdown_extensions:
   - attr_list
