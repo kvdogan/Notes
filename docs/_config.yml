@@ -4,20 +4,7 @@ description: A description of my awesome site.
 url: https://kvdogan.github.io
 baseurl: "notes" # Leave this blank for a user page repository, or set it to the name of your project repository for a project page.
 
-theme:
-  name: material
-  font:
-    text: Lato
-  features:
-    - navigation.footer
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - content.action.edit
-    - content.action.view
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+remote_theme: just-the-docs/just-the-docs
 
 # Navigation links
 # Add any links you want to appear in the navigation menu here.
@@ -27,16 +14,15 @@ plugins:
 nav_links:
   - title: Home
     url: /
-  - title: About
-    url: /about/
-  - title: Blog
-    url: /blog/
-  - title: Dropdown
+  - title: Mathmatics
+    url: /Mathematics
     children:
-      - title: Page 1
-        url: /page1/
-      - title: Page 2
-        url: /page2/
+      - title: Logarithm
+        url: /Mathematics/Logarithm.md
+      - title: Math Definitions
+        url: /Mathematics/Logarithm.md
+      - title: Math Definitions
+        url: /Mathematics/Math%20Definitions.md
 
 # Social media links
 # Add any social media links you want to appear in the footer here.
