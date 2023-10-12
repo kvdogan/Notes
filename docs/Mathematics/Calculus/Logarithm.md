@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## Logarithm
 Definition of $e$ is used to calculate derivation proofs of $lnx$ and $e^x$.
 $$
