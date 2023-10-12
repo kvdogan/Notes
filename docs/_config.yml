@@ -11,35 +11,10 @@ markdown_extensions:
   - attr_list
   - footnotes
   - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
-# Social media links
-# Add any social media links you want to appear in the footer here.
-# Each link should have a title, a URL, and an icon.
-# You can use any Font Awesome icon name for the icon.
-# See the Font Awesome documentation for more information.
-social_links:
-  - title: GitHub
-    url: https://github.com/username
-    icon: fab fa-github
-  - title: Twitter
-    url: https://twitter.com/username
-    icon: fab fa-twitter
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/username
-    icon: fab fa-linkedin
-
-extra_javascript:
-  - _include/mathjax.js
-  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  - tables
+  - smart
+  - fenced_code
+  - mathjax:
+      - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  - kramdown:
+      math_engine: mathjax
