@@ -4,7 +4,7 @@ description: A description of my awesome site.
 url: https://kvdogan.github.io
 baseurl: "notes" # Leave this blank for a user page repository, or set it to the name of your project repository for a project page.
 
-remote_theme: just-the-docs/just-the-docs
+theme: material
 
 
 markdown_extensions:
@@ -15,3 +15,6 @@ markdown_extensions:
   - smart
   - fenced_code
   - kramdown
+
+extra_javascripts:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
