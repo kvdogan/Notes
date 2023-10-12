@@ -8,21 +8,12 @@ remote_theme: just-the-docs/just-the-docs
 
 # Enable MatJax math
 markdown_extensions:
-  - attr_list
-  - footnotes
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - jekyll-spaceship
+  - jemoji
+  - jekyll-mentions
+  - kramdown
+  - mathjax
+  - mermaid
 
 # Social media links
 # Add any social media links you want to appear in the footer here.
