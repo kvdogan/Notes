@@ -32,5 +32,5 @@ social_links:
     icon: fab fa-linkedin
 
 extra_javascript:
+  - assets/javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
