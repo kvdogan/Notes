@@ -6,7 +6,7 @@ baseurl: "notes" # Leave this blank for a user page repository, or set it to the
 
 remote_theme: just-the-docs/just-the-docs
 
-# Enable MatJax math
+
 markdown_extensions:
   - attr_list
   - footnotes
