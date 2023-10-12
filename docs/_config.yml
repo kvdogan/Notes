@@ -4,7 +4,15 @@ description: A description of my awesome site.
 url: https://kvdogan.github.io
 baseurl: "notes" # Leave this blank for a user page repository, or set it to the name of your project repository for a project page.
 
-remote_theme: pages-themes/hacker@v0.2.0
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+
+remote_theme: pages-themes/time-machine@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
