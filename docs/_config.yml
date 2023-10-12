@@ -4,8 +4,17 @@ description: A description of my awesome site.
 url: https://kvdogan.github.io
 baseurl: "notes" # Leave this blank for a user page repository, or set it to the name of your project repository for a project page.
 
-# Build settings
-theme: jekyll-theme-minimal # Change this to the name of the theme you want to use.
+theme:
+  name: material
+  font:
+    text: Lato
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.action.edit
+    - content.action.view
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
