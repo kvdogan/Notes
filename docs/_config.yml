@@ -9,7 +9,8 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: "_layouts/default"
+      title: "Home"
 
 
 remote_theme: pages-themes/time-machine@v0.2.0
