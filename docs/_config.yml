@@ -41,5 +41,5 @@ social_links:
     icon: fab fa-linkedin
 
 extra_javascript:
-  - assets/javascripts/mathjax.js
+  - _include/mathjax.js
   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
