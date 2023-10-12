@@ -1,3 +1,5 @@
+# Diophantine Equations
+
 **Example:**
 Solve $7x+5y+1=0$ with the aid of GCD and diophantane equation method?
 
@@ -10,7 +12,7 @@ $$
    \end{align}
 $$
 
-We start with equation(2) since it is one step higher than the step we reached zero.  
+We start with equation(2) since it is one step higher than the step we reached zero.
 Our goal is to achieve: $7x-5y=-1$
 
 Plug equation(1) in the place of (2) in eq.2 and simplify and make it look like $(7)x+(5)y+1=0$
@@ -19,7 +21,7 @@ $$
 \begin{align*}
 	1 &= (5) - 2 \left[(7) -1(5) \right] \\
 	1 &= (5) - 2(7) + 2(5) \\
-	1 &= 3(5) - 2(7) \\ 
+	1 &= 3(5) - 2(7) \\
 	-1 &= -3(5) + 2(7)\\
 	 0 &= 2(7) + (- 3(5)) +1\\
 	 &\boxed{x=2} \quad \boxed{y=-3}
@@ -41,7 +43,7 @@ $$
 \end{align}
 $$
 
-We start with (7) equation since it is one step higher than the step we reached zero.  
+We start with (7) equation since it is one step higher than the step we reached zero.
 Our goal is to achieve: $47x-30y+1=0$
 
 Plug eq.5 and eq.6 and eq. 4 in corresponding places in eq.2 and simplify and make it look like $(47)x-(30)y+1=0$

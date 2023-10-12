@@ -6,23 +6,23 @@ baseurl: "notes" # Leave this blank for a user page repository, or set it to the
 
 remote_theme: just-the-docs/just-the-docs
 
-# Navigation links
-# Add any links you want to appear in the navigation menu here.
-# Each link should have a title and a URL.
-# You can also add dropdown menus by using the "children" key.
-# See the Jekyll documentation for more information.
-nav_links:
-  - title: Home
-    url: /
-  - title: Mathmatics
-    url: /Mathematics
-    children:
-      - title: Logarithm
-        url: /Mathematics/Logarithm.md
-      - title: Math Definitions
-        url: /Mathematics/Logarithm.md
-      - title: Math Definitions
-        url: /Mathematics/Math%20Definitions.md
+# Enable MatJax math
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 # Social media links
 # Add any social media links you want to appear in the footer here.
